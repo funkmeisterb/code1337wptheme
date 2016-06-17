@@ -813,7 +813,7 @@ Social Menu
 	content: '\f173';
 }
 .social-navigation li a[href*="github.com"]::before {
-	content: '\f0e1';
+	content: 'GITHUB';
 }
 
 /*--------------------------------------------------------------
