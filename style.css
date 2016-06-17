@@ -813,7 +813,7 @@ Social Menu
 	content: '\f173';
 }
 .social-navigation li a[href*="github.com"]::before {
-	content:  url(images\GitHub-Mark-Light-120px-plus.png);
+	content:  url(images/GitHub-Mark-Light-120px-plus.png);
 }
 
 /*--------------------------------------------------------------
