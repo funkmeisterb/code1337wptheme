@@ -235,11 +235,7 @@ add_filter('excerpt_more', 'oblique_excerpt_more');
  * Footer credits
  */
 function oblique_footer_credits() {
-	echo '<a href="' . esc_url( __( 'http://wordpress.org/', 'oblique' ) ) . '" rel="nofollow">';
-		printf( __( 'Proudly powered by %s', 'oblique' ), 'WordPress' );
-	echo '</a>';
-	echo '<span class="sep"> | </span>';
-	printf( __( 'Theme: %2$s by %1$s.', 'oblique' ), 'Themeisle', '<a href="http://themeisle.com/themes/oblique/" rel="nofollow">Oblique</a>' );
+	echo 'Copyright © 2016 Code 1337' . "\n";
 }
 add_action( 'oblique_footer', 'oblique_footer_credits' );
 
